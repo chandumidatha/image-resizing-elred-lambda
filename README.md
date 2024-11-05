@@ -93,5 +93,3 @@ Upload an image to the source bucket, and the Lambda function will:
 - **Permission Issues**: Ensure the IAM role attached to your Lambda function has `s3:GetObject` and `s3:PutObject` permissions for the source and destination buckets.
 - **Unsupported File Type**: The function only supports `.jpg`, `.jpeg`, and `.png` formats.
 - **Error Logs**: Check the function's logs in Amazon CloudWatch for detailed error messages.
-
----
